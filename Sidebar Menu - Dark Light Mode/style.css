@@ -56,7 +56,7 @@ body.dark{
     z-index: 100;  
 }
 .sidebar.close{
-    width: 80px;
+    width: 88px;
 }
 
 /* ===== Reusable code - Here ===== */
@@ -293,6 +293,7 @@ body.dark .switch::before{
     height: 100vh;
     width: calc(100% - 78px);
 }
+
 body.dark .home .text{
     color: var(--text-color);
 }
