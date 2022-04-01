@@ -178,6 +178,7 @@ header .image-text .profession{
     margin-top: -80px;
     width: 200px;
     height: 200px;
+    transition: var(--tran-03);
 }
 .menu img {
     width: 100%;
