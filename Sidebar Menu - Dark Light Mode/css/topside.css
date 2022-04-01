@@ -6,6 +6,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: var(--body-color);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+::selection{
+  background: red;
+}
+
+
 :root{
     /* ===== Colors ===== */
     --body-color: #dae0f0;

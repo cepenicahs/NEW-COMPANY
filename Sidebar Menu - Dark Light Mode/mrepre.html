@@ -8,7 +8,7 @@
     
     <!----======== CSS ======== -->
     <link rel="stylesheet" href="css/topside.css">
-    <link rel="stylesheet" href="css/manage.css">
+    <link rel="stylesheet" href="css/mrepre.css">
     
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -115,102 +115,66 @@
     
    <!-----content----->
 
-<div class="profile">
-    <div class="ManageProfile">
-    <h1>Manage Profile </h1>
-    </div>
-
-    <div class="profilepic">
-        <img src="img/pic.jpg">
-        <i class='bx bxs-edit-alt' ></i>
-    </div>
-                
-    <div class="desc">
-    <h4>Company Description</h4>
-    <textarea  class="textarea" placeholder="Write something about your company’s mission, vision, objectives, goals, or anything about your company..."></textarea>
-        </div>
-        <br><br><br>
- <!--Fill up forms-->
-    <div class="form">
-
-    <div class="coInfo">
-        <h3>Company Information</h3>
-        <div class="content-coInfo">
-        <div class="coInfo-1stform">
-            <div class="label">Company Name:</div>
-            <input type="text">
-        </div>
-        <div class="coInfo-2ndform">
-            <div class="label">Office Address:</div>
-            <textarea rows="2"></textarea>
-        </div>
-        <div class="coInfo-3rdform">
+<div class="coRep">
+    <button  id="back" class="btn_back">Go&nbsp;Back!</button>
+    <div class="rep-create">
+        <div class="NewRep">
+            <h2>Manage Representative </h2>
+        <div class="coRep-1stform">
             <div class="innerform">
-                <div class="label">Industry :</div>
-                 <input type="text">
-                 <div class="label">Specialty:</div>
-                 <input type="text">
-                 <div class="label">Founded:</div>
+                <div class="label">First_Name</div>
                 <input type="text">
-                
             </div>
-            <div class="inner1">
-                <div class="label">Telephone :</div>
-                <input type="text" id="number" maxlength="11">
+            <div class="innerform">
+                <div class="label">Middle_Name</div>
+                <input type="text">
+            </div>
+            <div class="innerform">
+                <div class="label">Last_Name</div>
+                <input type="text">
+            </div>
+            <div class="innerform">
+                <div class="label">Suffix</div>
+                <input id="suffix" type="text">
             </div>
         </div>
-        <div class="coInfo-4thform">
-            <div class="label">Number_of_Employee</div>
-            <input type="number"  placeholder="100">-<input type="number" placeholder="1000">
+        <div class="coRep-2ndform">
+            <div class="label">Role in Hiring Process</div>
+                <input type="text">
+        </div>
+        <button  id="new" class="btn_new">Create</button>
         </div>
     </div>
-    </div>
-
-    <div class="coRep">
-        <div class="link">
-            <a href="mrepre.html">
-                <br>
-                <span>Manage Representative</span>
-            </a>
-        </div>
-
-    </div>
-
-    <div class="package">
-        <h3>Package Subscription</h3>
-            <div class="content-package">
-                <div class="package-1stform">
-                    <input type="text" placeholder="silver :">
-                    <button  id="apply" class="btn_apply">Apply&nbsp;for&nbsp;Sponsorship</button>
-                </div>
+    <div class="rep-create">
+        <span>Representative</span>
+        <div class="coRep-1stform">
+            <div class="innerform">
+                <div class="label">First_Name</div>
+                <input type="text">
             </div>
-    </div>
-</div>
-    <div class="socmed">
-        <div class="link">Social Media Links</div>
-        <div class="button_facebook">
-            <i class='bx bxl-facebook-circle' ></i><input type="text">
+            <div class="innerform">
+                <div class="label">Middle_Name</div>
+                <input type="text">
+            </div>
+            <div class="innerform">
+                <div class="label">Last_Name</div>
+                <input type="text">
+            </div>
+            <div class="innerform">
+                <div class="label">Suffix</div>
+                <input id="suffix" type="text">
+            </div>
         </div>
-        <div class="button_facebook">
-            <i class='bx bxl-twitter' ></i><input type="text">
+        <div class="coRep-2ndform">
+            <div class="label">Role in Hiring Process</div>
+                <input type="text">
         </div>
-        <div class="button_facebook">
-            <i class='bx bxl-linkedin-square' ></i><input type="text">
-        </div>
-        <div class="button_facebook">
-            <i class='bx bx-globe' ></i><input type="text">
-        </div>
-    </div>
-    <div class="footer">
-        <label class="label2"> For changes to apply please verify your password.</label><br>
-        <input type="text" placeholder="input password">
         <button  id="update" class="btn_update">Update</button>
+        <button  id="delete" class="btn_delete">Delete</button>
     </div>
-            
+    
+    
 </div>
-
-
-
 <!-----content(END)----->
 
     <script src="js/script.js"></script>
