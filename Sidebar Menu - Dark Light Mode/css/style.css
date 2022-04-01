@@ -25,7 +25,7 @@
 
 body{
     min-height: 100vh;
-    background-color: var(--body-color);
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?t=st=1648141788~exp=1648142388~hmac=eae14837367ada146f331f80440c7147deedce8ad002dab062b7a93b80d490da&w=1380);
     transition: var(--tran-05);
 }
 
@@ -43,12 +43,40 @@ body.dark{
     --text-color: #ccc;
 }
 
+/* ===== Topbar ===== */
+.topbar {
+    width: 100%;
+    height: 80px;
+    background: var(--sidebar-color);
+    transition: var(--tran-05);
+}
+.topbar .logo-container {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.topbar .logo-container img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.topbar .logo-container h1 {
+    color: var(--text-color);
+    margin-left: 1rem;
+    cursor: default;
+}
+
+.topbar .logo-container h1 br {
+    display: none;
+}
+
 /* ===== Sidebar ===== */
  .sidebar{
     position: fixed;
-    top: 0;
+    top: 80px;
     left: 0;
-    height: 100%;
+    height: 95%;
     width: 250px;
     padding: 10px 14px;
     background: var(--sidebar-color);
@@ -59,7 +87,6 @@ body.dark{
     width: 88px;
 }
 
-/* ===== Reusable code - Here ===== */
 .sidebar ul {
     margin-top: 50px;
 }
@@ -103,7 +130,6 @@ body.dark{
 .sidebar.close .text{
     opacity: 0;
 }
-/* =========================== */
 
 .sidebar header{
     position: relative;
@@ -131,7 +157,7 @@ header .image-text .profession{
 
 
 .menu .pic {
-    margin-top: 80px;
+    margin-top: -80px;
     width: 200px;
     height: 200px;
 }
@@ -144,7 +170,7 @@ header .image-text .profession{
 
 .sidebar header .toggle{
     position: absolute;
-    top: 140px;
+    top: 120px;
     right: -25px;
     transform: translateY(-50%) rotate(180deg);
     height: 25px;
@@ -299,7 +325,8 @@ body.dark .home .text{
 }
 
 .sidebar.close .menu .pic {
-    display: none;
+    width: 60px;
+    height: 60px;
     transition: var(--tran-03);
 }
 
