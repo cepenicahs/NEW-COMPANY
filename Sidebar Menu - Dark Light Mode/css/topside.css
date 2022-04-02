@@ -88,6 +88,47 @@ body.dark{
     display: none;
 }
 
+.topbar .topright {
+    padding-left: 60%;
+}
+
+.topbar .topright ul {
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+.topbar .topright ul li {
+    padding-left: 10px;
+}
+
+.topbar button {
+    background-color: var(--primary-color);
+    border-style: none;
+    height: 45px;
+    padding: 2px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.topbar button:hover {
+    background-color: var(--text-color);
+    color: var(--body-color);
+}
+
+.topbar .topright ul li .icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.topbar .topright ul li .icon:hover {
+    background-color: var(--primary-color);
+    color: var(--toggle-color);
+}
+
 /* ===== Sidebar ===== */
  .sidebar{
     position: fixed;
