@@ -84,19 +84,8 @@
 	width: 1000px;
 }
 
-@media  screen and (max-width:1440px) {
-	.coRep {
-		padding-left: 100px;
-		margin-left: -50px;
-	}
-}
 
 @media  screen and (max-width:1440px) {
-	.coRep {
-		width: 87%;
-		padding-left: 100px;
-		margin-left: -50px;
-	}
 
 	.NewRep{
 		margin-bottom: 20px;
@@ -107,10 +96,7 @@
 }
 
 @media  screen and (max-width:1080px) {
-	.coRep {
-		width: 87%;
-		margin-left: -100px;
-	}
+
 
 	.coRep input[type="text"]{
 		width: 180px;
@@ -130,8 +116,7 @@
 
 @media  screen and (max-width:853px) {
 	.coRep {
-		width: 85%;
-		margin-left: -100px;
+		padding-left: 60px;
 		
 	}
 
@@ -157,8 +142,6 @@
 
 @media  screen and (max-width:613px) {
 	.coRep {
-		width: 70%;
-		margin-left: -140px;
 		padding-left: 60px;
 		
 	}

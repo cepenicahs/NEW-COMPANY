@@ -111,7 +111,7 @@
 }
 
 
-@media  screen and (max-width: 1450px) {
+@media  screen and (max-width: 1550px) {
 	.dshbrd {
 		padding-left: 1%;
 	}
@@ -154,7 +154,7 @@
 
 }
 
-@media  screen and (max-width: 1220px) {
+@media  screen and (max-width: 1020px) {
 	.dshbrd {
 		padding-left: 1%;
 		height: 1300px;
@@ -193,11 +193,11 @@
 
 }
 
-@media  screen and (max-width: 1000px) {
+@media  screen and (max-width: 900px) {
 	.dshbrd {
 		height: auto;
 		padding-left: 0px;
-		margin-left: 1%;
+		margin-left: 2%;
 	}
 	.statistics {
 		width: 300px;
@@ -257,7 +257,7 @@
 
 @supports (display:grid) {
 
-	@media (min-width:1450px) {
+	@media (min-width:1550px) {
 		
 
 		.graph {

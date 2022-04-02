@@ -71,7 +71,6 @@ body.dark{
 .topbar .logo-container {
     display: flex;
     align-items: center;
-    width: 40%;
 }
 
 .topbar .logo-container img {
@@ -118,12 +117,14 @@ body.dark{
 }
 
 .sidebar header .image,
-.sidebar .icon{
+.sidebar .icon,
+.topbar .icon{
     min-width: 60px;
     border-radius: 6px;
 }
 
-.sidebar .icon{
+.sidebar .icon,
+.topbar .icon{
     min-width: 60px;
     border-radius: 6px;
     height: 100%;
@@ -134,7 +135,8 @@ body.dark{
 }
 
 .sidebar .text,
-.sidebar .icon{
+.sidebar .icon,
+.topbar .icon{
     color: var(--text-color);
     transition: var(--tran-03);
 }
@@ -354,3 +356,4 @@ body.dark .home .text{
     padding-top: 200px;
     width: 100%;
 }
+
