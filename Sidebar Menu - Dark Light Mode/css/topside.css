@@ -106,6 +106,7 @@ body.dark{
     background-color: var(--primary-color);
     border-style: none;
     height: 45px;
+    width: 200px;
     padding: 2px 25px;
     border-radius: 20px;
     font-weight: 600;
